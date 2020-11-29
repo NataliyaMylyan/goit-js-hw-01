@@ -1,37 +1,49 @@
-// ВАРИАНТ 1
-
 const total = 100;
-let ordered = 50;
+const ordered = prompt('Введите количество товаров в заказе:');
 
-if (ordered > total) {
-    console.log('На складе недостаточно твоаров!');
-} else {
-    console.log('Заказ оформлен, с вами свяжется менеджер');
-}
+const message = ordered < total ? 'Заказ оформлен, с вами свяжется менеджер' : 'На складе недостаточно твоаров!';
 
-ordered = 20;
+console.log(message);
 
-if (ordered > total) {
-    console.log('На складе недостаточно твоаров!');
-} else {
-    console.log('Заказ оформлен, с вами свяжется менеджер');
-}
 
-ordered = 80;
 
-if (ordered > total) {
-    console.log('На складе недостаточно твоаров!');
-} else {
-    console.log('Заказ оформлен, с вами свяжется менеджер');
-}
 
-ordered = 130;
 
-if (ordered > total) {
-    console.log('На складе недостаточно твоаров!');
-} else {
-    console.log('Заказ оформлен, с вами свяжется менеджер');
-}
+
+// ВАРІАНТИ ДО РЕКОМЕНДАЦІЙ МЕНТОРА
+// ВАРИАНТ 1
+// const total = 100;
+// let ordered = 50;
+
+// if (ordered > total) {
+//     console.log('На складе недостаточно твоаров!');
+// } else {
+//     console.log('Заказ оформлен, с вами свяжется менеджер');
+// }
+
+// ordered = 20;
+
+// if (ordered > total) {
+//     console.log('На складе недостаточно твоаров!');
+// } else {
+//     console.log('Заказ оформлен, с вами свяжется менеджер');
+// }
+
+// ordered = 80;
+
+// if (ordered > total) {
+//     console.log('На складе недостаточно твоаров!');
+// } else {
+//     console.log('Заказ оформлен, с вами свяжется менеджер');
+// }
+
+// ordered = 130;
+
+// if (ordered > total) {
+//     console.log('На складе недостаточно твоаров!');
+// } else {
+//     console.log('Заказ оформлен, с вами свяжется менеджер');
+// }
 
 
 
